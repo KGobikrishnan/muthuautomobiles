@@ -22,60 +22,60 @@ import {
 
 const HIGHLIGHT_OPTIONS = [
   {
-    id: 'modifications',
-    title: 'Custom Modifications',
-    desc: 'Expert body styling & fittings',
-    icon: Wrench,
-    colorClass: 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white'
-  },
-  {
-    id: 'audio_lighting',
-    title: 'Audio & Lighting',
-    desc: 'Premium Android stereos & LED lights',
-    icon: Volume2,
-    colorClass: 'bg-gradient-to-r from-purple-600 to-pink-500 text-white'
-  },
-  {
-    id: 'accessories',
-    title: 'Car Accessories',
-    desc: 'Custom seat covers, mats & parts',
-    icon: Sparkles,
-    colorClass: 'bg-gradient-to-r from-amber-500 to-orange-500 text-white'
-  },
-  {
-    id: 'workmanship',
-    title: 'Workmanship & Finish',
-    desc: 'Flawless, neat & clean installation',
-    icon: Star,
+    id: 'genuine_parts',
+    title: '100% Genuine Spares',
+    desc: 'OEM & OES certified parts',
+    icon: ShieldCheck,
     colorClass: 'bg-gradient-to-r from-emerald-500 to-teal-600 text-white'
   },
   {
-    id: 'pricing',
-    title: 'Pricing & Value',
-    desc: 'Affordable rates & genuine products',
-    icon: DollarSign,
-    colorClass: 'bg-gradient-to-r from-blue-500 to-cyan-600 text-white'
+    id: 'all_brands',
+    title: 'All Brands In-Stock',
+    desc: 'Maruti, Tata, Hyundai & Mahindra',
+    icon: Car,
+    colorClass: 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white'
   },
   {
-    id: 'fast',
-    title: 'Fast & On-Time',
-    desc: 'Prompt delivery & skilled team',
+    id: 'wholesale_pricing',
+    title: 'Wholesale Pricing',
+    desc: 'Affordable & fair market rates',
+    icon: DollarSign,
+    colorClass: 'bg-gradient-to-r from-violet-600 to-purple-600 text-white'
+  },
+  {
+    id: 'exact_fitment',
+    title: 'Exact Part Match',
+    desc: 'Zero mismatch guarantee',
+    icon: CheckCircle2,
+    colorClass: 'bg-gradient-to-r from-cyan-500 to-blue-600 text-white'
+  },
+  {
+    id: 'ready_stock',
+    title: 'Immediate Availability',
+    desc: 'Instant counter delivery',
     icon: Clock,
+    colorClass: 'bg-gradient-to-r from-amber-500 to-orange-500 text-white'
+  },
+  {
+    id: 'durability',
+    title: 'Tested Durability',
+    desc: 'High endurance & long life',
+    icon: Star,
+    colorClass: 'bg-gradient-to-r from-rose-500 to-red-500 text-white'
+  },
+  {
+    id: 'mechanic_choice',
+    title: 'Mechanics Choice',
+    desc: 'Trusted by local technicians',
+    icon: Wrench,
     colorClass: 'bg-gradient-to-r from-teal-500 to-emerald-600 text-white'
   },
   {
-    id: 'detailing',
-    title: 'Polishing & Detailing',
-    desc: 'Deep cleaning & paint protection',
-    icon: SprayCan,
-    colorClass: 'bg-gradient-to-r from-purple-500 to-indigo-600 text-white'
-  },
-  {
-    id: 'trust',
-    title: 'Trusted Experience',
-    desc: '25,000+ happy customers since 2019',
-    icon: ThumbsUp,
-    colorClass: 'bg-gradient-to-r from-rose-500 to-red-500 text-white'
+    id: 'cumbum_trust',
+    title: 'Trusted in Cumbum',
+    desc: '1,850+ reviews & 4.9★ rating',
+    icon: Sparkles,
+    colorClass: 'bg-gradient-to-r from-fuchsia-600 to-pink-500 text-white'
   }
 ];
 
@@ -261,7 +261,7 @@ export const FeatureSelectionScreen = () => {
       <div className="w-full bg-white rounded-3xl border border-purple-100/90 shadow-2xs p-3.5 text-left">
         <div className="flex items-center gap-1.5 mb-2">
           <MessageSquare className="w-3.5 h-3.5 text-purple-600" />
-          <span className="text-[11px] font-extrabold text-slate-900">Mention your car model or special note</span>
+          <span className="text-[11px] font-extrabold text-slate-900">Vehicle model or parts purchased</span>
           <span className="text-[10px] text-slate-400 font-medium">(optional)</span>
         </div>
 
@@ -271,7 +271,7 @@ export const FeatureSelectionScreen = () => {
             maxLength={100}
             value={customerComment}
             onChange={(e) => setCustomerComment(e.target.value)}
-            placeholder="e.g. Swift 2024 model Android display upgrade"
+            placeholder="e.g. Swift diesel brake pads, Creta clutch set, Innova lower arm"
             className="w-full text-xs p-3 pr-12 bg-slate-50 border border-slate-200/80 rounded-2xl outline-none focus:ring-2 focus:ring-purple-500 focus:bg-white text-slate-800 placeholder-slate-400 transition-all"
           />
           <span className="absolute right-3 top-1/2 -translate-y-1/2 text-[10px] font-medium text-slate-400">
@@ -281,7 +281,7 @@ export const FeatureSelectionScreen = () => {
 
         <div className="flex items-center gap-1.5 text-[9.5px] text-slate-400 font-medium mt-2">
           <Lightbulb className="w-3 h-3 text-amber-500 shrink-0" />
-          <span>Add your car model or fitting details to make your review authentic.</span>
+          <span>Mentioning your car model or part boosts your review ranking on Google Search.</span>
         </div>
       </div>
 

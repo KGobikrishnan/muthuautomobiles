@@ -39,7 +39,7 @@ export const ReviewDraftScreen = () => {
 
   const serviceContext = selectedServices && selectedServices.length > 0
     ? selectedServices.join(" & ")
-    : "car modifications & accessories";
+    : "genuine auto spares & mechanical parts";
 
   const is5Star = Number(selectedRating) >= 5;
 
@@ -83,10 +83,10 @@ export const ReviewDraftScreen = () => {
     }
   ];
 
-  // Dynamic SEO keywords powered by Gemini
+  // Dynamic SEO keywords tailored for Muthu Automobiles Cumbum
   const activeKeywords = aiKeywords && aiKeywords.length > 0
     ? aiKeywords
-    : ['great service', 'friendly staff', 'fast checkout', 'super clean', 'fair prices', 'cozy vibe'];
+    : ['Muthu Automobiles Cumbum', '100% Genuine Spares', 'All Car Brands Stock', 'Wholesale Pricing', 'Exact Part Number', 'Cumbum Spare Parts'];
 
   // Sync draft when active tone or aiTones updates
   useEffect(() => {
