@@ -86,7 +86,7 @@ export const ReviewDraftScreen = () => {
   // Dynamic SEO keywords tailored for Muthu Automobiles Cumbum
   const activeKeywords = aiKeywords && aiKeywords.length > 0
     ? aiKeywords
-    : ['Muthu Automobiles Cumbum', '100% Genuine Spares', 'All Car Brands Stock', 'Wholesale Pricing', 'Exact Part Number', 'Cumbum Spare Parts'];
+    : ['Muthu Automobiles Cumbum', '100% Genuine Spares', 'All Car Brands Stock', 'Affordable Pricing', 'Exact Part Number', 'Cumbum Spare Parts'];
 
   // Sync draft when active tone or aiTones updates
   useEffect(() => {

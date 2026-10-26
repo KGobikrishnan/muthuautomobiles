@@ -13,7 +13,7 @@ const SEED_OPENERS_5_STAR = [
   "One of the most professional and trustworthy auto spare parts centres in the entire Cumbum valley.",
   "10/10 recommendation for Muthu Automobiles! Super satisfied with their service, knowledge, and genuine parts.",
   "Got my vehicle parts from here and the quality is completely authentic OEM standard!",
-  "Top-tier automotive spares destination in Cumbum with unbeatable wholesale pricing.",
+  "Top-tier automotive spares destination in Cumbum with unbeatable affordable pricing.",
   "Outstanding customer service and genuine brand automotive products at Muthu Automobiles.",
   "Truly impressed by the technical expertise of M. Muthu and the counter team in identifying exact part numbers!",
   "Muthu Automobiles in Cumbum has set a new benchmark for automobile spares reliability and prompt service!",
@@ -139,7 +139,7 @@ const WORKMANSHIP_SENTENCES = [
 ];
 
 const VALUE_AND_TIMELINE_SENTENCES_5_STAR = [
-  "Pricing is 100% transparent and wholesale-level competitive, far better than traveling to Madurai or Theni.",
+  "Pricing is 100% transparent and highly affordable, far better than traveling to Madurai or Theni.",
   "Immediate ready stock was available over the counter, saving critical time for my car's repair.",
   "Transparent rates, genuine warranty-backed spares, and prompt service made this an unbeatable deal.",
   "Great value for money with authentic branded automotive parts and honest bill receipts.",

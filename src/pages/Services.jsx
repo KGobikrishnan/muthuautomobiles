@@ -345,7 +345,7 @@ export const Services = () => {
                 Premier Auto Spare Parts Hub in Cumbum
               </h3>
               <p className="text-gray-400 text-sm sm:text-base leading-relaxed mb-6">
-                Located near Nalantha School and opposite Nadaraj Thirumana Mandabam, Muthu Automobiles provides genuine OEM/OES components, wholesale pricing, and expert guidance to ensure your car runs safely and smoothly.
+                Located near Nalantha School and opposite Nadaraj Thirumana Mandabam, Muthu Automobiles provides genuine OEM/OES components, affordable pricing, and expert guidance to ensure your car runs safely and smoothly.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -359,7 +359,7 @@ export const Services = () => {
                 </div>
                 <div className="flex items-center gap-2.5 text-sm text-gray-300">
                   <CheckCircle2 className="w-4 h-4 text-[#ff6b00]" />
-                  <span>Wholesale & competitive counter rates</span>
+                  <span>Affordable & competitive counter rates</span>
                 </div>
                 <div className="flex items-center gap-2.5 text-sm text-gray-300">
                   <CheckCircle2 className="w-4 h-4 text-[#ff6b00]" />

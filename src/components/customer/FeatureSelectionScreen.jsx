@@ -36,9 +36,9 @@ const HIGHLIGHT_OPTIONS = [
     colorClass: 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white'
   },
   {
-    id: 'wholesale_pricing',
-    title: 'Wholesale Pricing',
-    desc: 'Affordable & fair market rates',
+    id: 'affordable_pricing',
+    title: 'Affordable Pricing',
+    desc: 'Best rates & genuine value',
     icon: DollarSign,
     colorClass: 'bg-gradient-to-r from-violet-600 to-purple-600 text-white'
   },

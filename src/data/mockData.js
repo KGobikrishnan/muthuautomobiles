@@ -183,7 +183,7 @@ export const BARANI_SERVICES = MUTHU_SERVICES;
 export const FEATURE_TAGS = [
   { id: "genuine_parts", title: "100% Genuine Spares", desc: "Authentic OEM & OES spares", iconName: "ShieldCheck", defaultSelected: true },
   { id: "all_brands", title: "All Car Brands Stock", desc: "Maruti, Hyundai, Tata, Mahindra & more", iconName: "Wrench", defaultSelected: true },
-  { id: "best_pricing", title: "Best Wholesale Rates", desc: "Competitive, transparent pricing", iconName: "DollarSign", defaultSelected: true },
+  { id: "affordable_pricing", title: "Affordable Price", desc: "Best rates & transparent pricing", iconName: "DollarSign", defaultSelected: true },
   { id: "ready_stock", title: "Immediate Availability", desc: "Readily available in stock", iconName: "Clock", defaultSelected: false },
   { id: "expert_guidance", title: "Technical Advice", desc: "Exact part number matching", iconName: "ThumbsUp", defaultSelected: false },
   { id: "durability", title: "Long-lasting Quality", desc: "High endurance replacement parts", iconName: "Star", defaultSelected: false },
